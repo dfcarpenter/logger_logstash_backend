@@ -18,10 +18,10 @@ defmodule LoggerLogstashBackend.Mixfile do
 
   defp deps do
     [
-      {:earmark, "~> 0.1", only: :dev},
-      {:ex_doc, "~> 0.7", only: :dev},
-      {:exjsx, "~> 3.1.0"},
-      {:timex, "~> 0.18.1"}
+      {:earmark, "~> 0.2.1", only: :dev},
+      {:ex_doc, "~> 0.11.4", only: :dev},
+      {:poison, "~> 1.2"},
+      {:timex, "~> 1.0.0"}
     ]
   end
 
